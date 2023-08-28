@@ -1,0 +1,48 @@
+.content_detail-wrapper {
+  width: 100%;
+  display: flex;
+  .content_image_detail {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .content_detail-title {
+    width: 48%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+
+    .content_detail-span {
+      margin: 12px 0;
+    }
+  }
+}
+.date_picker {
+  margin: 24px 0;
+  width: 60%;
+  select {
+    padding: 8px 12px;
+  }
+}
+
+.Wrapper_infomation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Clinic_info {
+    padding-left: 20px;
+    border-top: none;
+    margin-top: 0px;
+    border-left: 1px solid #eee;
+}

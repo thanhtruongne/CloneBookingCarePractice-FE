@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  text-rendering: optimizeSpeed;
+  font: 14px/1.5 "Montserrat", sans-serif;
+  outline: none;
+}
+
+.Home_header_container {
+  padding: 10px 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 1);
+
+  .Home_header-wrapper {
+    height: 60px;
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .Home_header-content {
+      display: flex;
+      align-items: center;
+
+      .Home-container-left {
+        width: 25%;
+        display: flex;
+        align-items: center;
+
+        .Icon_bars-home {
+          position: relative;
+          padding: 10px 8px 10px 0;
+          margin-left: 0px;
+          width: 22px;
+          height: 17px;
+          color: #969495;
+        }
+        .Home_icon-logo {
+          background: url("../../assets/images/img/bookingcare-2020-logo.svg")
+            center center no-repeat;
+          height: 40px;
+          width: 160px;
+          padding-top: 5px;
+        }
+      }
+
+      .Home-container-center {
+        width: 50%;
+        .Home-container-list {
+          display: flex;
+          margin: 10px 0px 10px 25px;
+          justify-content: space-around;
+          padding: 0;
+        }
+
+        .Home_container-item {
+          display: inline-block;
+        }
+
+        .Home_container-item a {
+          display: flex;
+          flex-direction: column;
+          text-decoration: none;
+          color: #333;
+          font-weight: bold;
+          font-size: 12px;
+        }
+        .Home_container-item a span {
+          font-weight: lighter;
+          font-size: 10px;
+          display: block;
+        }
+      }
+
+      .Home-container-right {
+        width: 25%;
+        height: 60px;
+        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .Home-Wrapper-support {
+          display: flex;
+          justify-content: center;
+          text-align: right;
+          gap: 15px;
+
+          .Home_container-support {
+            color: #969495;
+            text-decoration: none;
+            font-weight: bold;
+            .Home_icon-circleQuestion {
+              color: #45c3d2;
+            }
+          }
+
+          .Number_support {
+            margin-top: 6px;
+            text-decoration: none;
+            color: #45c3d2;
+            font-size: 12px;
+          }
+
+          .Language_VI {
+              &.active {
+                span {
+                  font-weight: bold;
+                  color: #f7d800;
+                }
+              }
+          }
+
+          .Language_EN {
+            &.active {
+              span {
+                font-weight: bold;
+                color: #f7d800;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.Banner_header {
+  width: 100%;
+  background-color: #fff;
+  background: url("../../assets/images/img/bookingcare-cover-banner.jpg") center /
+    cover no-repeat;
+  
+  .Banner_searching {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(255, 255, 255, 0.1)
+    );
+    padding: 45px 0;
+    color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Searching_wrapper {
+      width: 1170px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+
+      .Searching_banner-title {
+        font-weight: lighter;
+        font-size: 32px;
+        color: #fff;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px #333;
+      }
+
+      .Banner-Looking {
+        margin: 10px auto;
+        width: 40%;
+        min-width: 300px;
+        position: relative;
+        z-index: 2;
+        min-height: 15vh;
+        min-height: 60px;
+        .Input_Changes {
+          background: #f7d800;
+          color: #fff;
+          outline: none;
+          border-radius: 25px;
+          border: 1px solid transparent;
+          line-height: 50px;
+          height: 50px;
+          padding-left: 50px;
+          padding-right: 25px;
+          position: relative;
+
+          .Div_icon {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #333;
+            text-align: center;
+          }
+
+          #Searching_chung {
+            background: transparent;
+            outline: none;
+            border: none;
+            width: 100%;
+          }
+        }
+      }
+
+      .App_link-Android_IOS {
+        padding-top: 25px;
+        margin-top: 15px;
+
+        .App_link-Android_IOS a {
+        }
+
+        .App_link-Android_IOS a img {
+        }
+      }
+    }
+  }
+
+  .Banner_Choose_Option {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 1)
+    );
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    .Option_list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .Option_Item {
+        margin: 0;
+        padding: 5px;
+        display: list-item;
+      }
+      .Option_Item a:hover {
+        color: #49bce2;
+      }
+       .Option_Item a {
+        padding: 5px;
+        font-size: 16px;
+        color: #333;
+        font-weight: 600;
+        text-decoration: none;
+        width: 230px;
+        display: inline-block;
+        text-align: center;
+      }
+
+      .Icon_image-sub {
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+        width: 50px;
+        height: 50px;
+        margin: 2px auto;
+        background-size: 32px;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "homeheader": {
+    "specialtily": "Medical specialty",
+    "searchingdoctor": "Find a doctor specialty",
+    "healthfacilities": "Health facilities",
+    "Choosehospitalclinic": "Choose hospital clinic",
+    "Doctor": "Doctor",
+    "ChooseAgooddoctor": "Choose a good doctor",
+    "Checkuppackage": "Checkup package",
+    "Generalhealthcheck": "General health check",
+    "Support": "Support"
+  },
+  "banner": {
+    "Medicalbackground": "Medical background",
+    "Comprehensivehealthcare": "Comprehensive health care",
+    "generalsearch": "general search",
+    "Specializedexamination": "Specialized examination",
+    "Remoteexamination": "Remote examination",
+    "Generalexamination": "General examination",
+    "Medicaltest": "Medical test",
+    "Mentalhealth": "Mental health",
+    "DentalExamination": "Dental Examination",
+    "SurgeryPackage": "Surgery Package",
+    "MedicalProducts": "Medical Products",
+    "HealthTest": "Health Test"
+  },
+  "menu": {
+    "system": {
+      "header": "System",
+      "system-administrator": {
+        "header": "System Administrator",
+        "user-manage": "User manage",
+        "product-manage": "Package manage",
+        "register-package-group-or-account": "Register service package for group/account"
+      },
+      "system-parameter": {
+        "header": "System-parameter"
+      }
+    },
+
+    "admin": {
+      "manager-user": "User management",
+      "manager-doctor": "Doctor management",
+      "manager-admin": "Admin management",
+      "CRUD-User": "CRUD User",
+      "CRUD-Redux": "CRUD Redux",
+      "Clinic" : "Clinic",
+      "manager-clinic": "Manager Clinic",
+      "Specialist":"Specialist",
+      "manager-specialist":"Manager-Specialist",
+      "Handbook": "Handbook",
+      "manager-handbook":"Manager-Handbook",
+      "doctor_schedule" : "Doctor-Schedule"
+      
+    },
+    "doctor" : {
+      "doctor_schedule" : "Doctor Schedule",
+      "doctor_patient" : "Patient Schedule",
+      "title" : "Management Schedule Doctor ",
+      "Save" : "Book an appointment",
+      "Choose_time" :"Choose a time frame for medical examination",
+      "Create_doctor's" : "Create a doctor's appointment",
+      "Choose_Doctor" : "Choose Doctor",
+      "Info_Doctor" : "Doctor Infomations",
+      "Choose_price" : "Choose price",
+      "Payment_method":"Payment method",
+      "Choose_Province":"Choose Province",
+      "Clinic_name" :"Clinic",
+      "Address_Clinic" : "Address Clinic",
+      "Note" : "Note",
+      "Specialty_Doctor" : "Choose Specialtys Doctor",
+      "Clinic_Address" : "Address Clinic",
+      "FullName" : "FullName",
+      "Email" : "Email",
+      "Number" : "Phone Number",
+      "DayOfBirth" : "Day Of Birth",
+      "Gender" : "Choose gender",
+      "Reason" : "Reason booking schedules"
+    }
+  },
+  "manager-user": {
+    "add_user" : "Add user",
+    "Email" : "Email",
+    "Password" : "Password",
+    "FirstName" : "FirstName",
+    "LastName" : "LastName",
+    "PhoneNumber" : "PhoneNumber",
+    "Address"  : "Address",
+    "Gender": "Gender",
+    "Postision" : "Postision",
+    "Role" : "Role",
+     "Image" :"Avatar",
+    "Save" : "Save",
+    "Change_Edit_Save" :"Save Changes"
+}
+
+ 
+}

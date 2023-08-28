@@ -1,0 +1,17 @@
+.Edit_Table {
+  background-color: rgb(21, 66, 21);
+  color: #fff;
+  margin-right: 12px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+.Trash_Table {
+  background-color: rgb(165, 6, 6);
+  color: #fff;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+  }
+}

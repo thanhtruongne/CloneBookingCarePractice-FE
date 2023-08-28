@@ -1,0 +1,97 @@
+{
+  "homeheader": {
+    "specialtily": "Chuyên khoa",
+    "searchingdoctor": "Tìm bác sĩ theo chuyên khoa",
+    "healthfacilities": "Cơ sở y tế",
+    "Choosehospitalclinic": "Chọn bệnh viện phòng khám",
+    "Doctor": "Bác sĩ",
+    "ChooseAgooddoctor": "Chọn bác sĩ giỏi",
+    "Checkuppackage": "Gói khám",
+    "Generalhealthcheck": "Khám sức khỏe tổng quát",
+    "Support": "Hỗ trợ"
+  },
+  "banner": {
+    "Medicalbackground": "Nền tảng y tế",
+    "Comprehensivehealthcare": "Chăm sóc sức khỏe toàn diện",
+    "generalsearch": "Tìm kiếm tổng quát",
+    "Specializedexamination": "Khám chuyên khoa",
+    "Remoteexamination": "Khám từ xa",
+    "Generalexamination": "Khám tổng quát",
+    "Medicaltest": "Xét nghiệm y học",
+    "Mentalhealth": "Sức khỏe tinh thần",
+    "DentalExamination": "Khám nha khoa",
+    "SurgeryPackage": "Gói phẫu thuật",
+    "MedicalProducts": "Sản phẩm y tế",
+    "HealthTest": "Bài Test sức khỏe"
+  },
+  "menu": {
+    "system": {
+      "header": "Hệ thống",
+      "system-administrator": {
+        "header": "Quản trị hệ thống",
+        "user-manage": "Quản lý người sử dụng",
+        "product-manage": "Quản lý gói",
+        "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản"
+      },
+      "system-parameter": {
+        "header": "Tham số hệ thống"
+      }
+    },
+
+    "admin": {
+         "manager-user" : "Quản lý người dùng",
+         "manager-doctor": "Quản lý bác sĩ",
+         "manager-admin": "Quản lý admin",
+         "CRUD-User": "CRUD Người dùng",
+         "CRUD-Redux": "CRUD Redux",
+         "Clinic" : "Phòng khám",
+         "manager-clinic": "Quản lý phòng khám",
+         "Specialist":"Chuyên Khoa",
+         "manager-specialist":"Quản lý Chuyên Khoa",
+         "Handbook": "Cẩm nang",
+         "manager-handbook":"Quản lý Cẩm nang",
+         "doctor_schedule" : "Lịch trình khám bác sĩ"
+         
+    },
+    "doctor" : {
+      "doctor_schedule" : "Lịch trình khám bệnh của bác sĩ",
+      "doctor_patient" : "Lịch khám của bệnh nhân",
+      "title" : "Quản lý lịch trình khám bác sĩ ",
+      "Save" : "Đặt lịch khám",
+      "Choose_time" :"Chọn khung giờ khám bệnh",
+      "Create_doctor's" : "Tạo lịch khám bác sĩ",
+      "Choose_Doctor" : "Chọn bác sĩ",
+      "Info_Doctor" : "Thông tin bác sĩ",
+      "Choose_price" : "Chọn giá",
+      "Payment_method":"Phương thức thanh toán",
+      "Choose_Province":"Chọn tỉnh thành",
+      "Clinic_name" :"Phòng khám",
+      "Address_Clinic" : "Địa chỉ phòng khám",
+      "Note" : "Ghi chú",
+      "Specialty_Doctor" : "Chọn chuyên khoa",
+      "Clinic_Address" : "Chọn phòng khám",
+      "FullName" : "Họ và Tên",
+      "Email" : "Email",
+      "Number" : "Số Điện Thoại",
+      "DayOfBirth" : "Ngày Sinh",
+      "Gender" : "Chọn giới tính",
+      "Reason" : "Lý do khám"
+    }
+  },
+  "manager-user": {
+          "add_user" : "Thêm mới người dùng",
+          "Email" : "Email",
+          "Password" : "Mật Khẩu",
+          "FirstName" : "Tên",
+          "LastName" : "Họ",
+          "PhoneNumber" : "Số Điện Thoại",
+          "Address"  : "Địa chỉ",
+          "Gender": "Giới Tính",
+          "Postision" : "Vị trí",
+          "Role" : "Vai trò",
+           "Image" :"Hình Ảnh",
+          "Save" : "Lưu Người Dùng",
+          "Change_Edit_Save" :"Lưu thay đổi"
+  }
+  
+}

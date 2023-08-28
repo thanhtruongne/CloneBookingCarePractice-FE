@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.background_image {
+    background-color: #eeeeee;
+}
+.Wrapper_Doctor_Info_Specialty {
+    .content-left {
+        width: 50%;
+        .content_detail-title {
+            height: auto;
+            width: 400px;
+        }
+        .content_image_detail {
+            width: 100px;
+            height: 100px;
+        }
+        .wrapper_left.d-flex {
+            padding: 15px
+        }
+    }
+
+    .content_right {
+        width: 45%;
+
+        .right_content {
+            padding: 15px;
+        }
+    }
+}
+
+.content_type {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    border-radius: 8px;
+    border-bottom: none;
+    margin-bottom: 10px;
+}

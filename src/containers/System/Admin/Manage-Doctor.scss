@@ -1,0 +1,17 @@
+.Wrapper_title{
+  display: flex;
+  gap: 30px;
+}
+.content-right {
+  width: 50%;
+ 
+  display: flex;
+  flex-direction: column;
+}
+.content-left {
+  width: 40%;
+}
+.Proccess_Log{
+  margin-top: 12px;
+  border-top: 1px solid #ccc;
+}
